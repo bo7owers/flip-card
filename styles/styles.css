@@ -1,0 +1,19 @@
+body .card {
+  margin: 10% 0 0 30%;
+}
+
+body .card img {
+  width: 600px;
+  height: 600px;
+  cursor: pointer;
+}
+
+body .card .front img {
+  position: absolute;
+  z-index: 333;
+}
+
+body .card .back img {
+  position: absolute;
+}
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,24 @@
+body {
+    .card {
+        margin: 10% 0 0 30%;
+
+        img {
+            width: 600px;
+            height: 600px;
+            cursor: pointer;
+        }
+
+        .front {
+            img {
+                position: absolute;
+                z-index: 333;
+            }
+        }
+
+        .back {
+            img {
+                position: absolute;
+            }
+        }
+    }
+}
